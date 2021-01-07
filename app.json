@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "셀러Q&A",
+    "slug": "SellerQnA",
+    "scheme": "sellerqna",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.2.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 30000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mongwoo.sellerqna",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "사용자의 사진앨범에 대한 접근을 허용해주세요."
+      },
+      "buildNumber": "0.1.5"
+    },
+    "android": {
+      "package": "com.mongwoo.sellerqna",
+      "versionCode": 8,
+      "useNextNotificationsApi": true
+    }
+  }
+}
